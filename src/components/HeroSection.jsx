@@ -6,9 +6,12 @@ function HeroSection() {
   return (
     <section className="hero" id="home">
       <div className="container">
-        <p className="hero-tagline">REAL ESTATE</p>
+        <p className="hero-tagline"> REAL ESTATE | HMDA & RERA APPROVED PROJECTS</p>
         <h1>Building Dreams, Creating Legacies</h1>
         <p className="hero-subtitle">Premium residential and commercial developments by Sikharagra Group redefining modern living across Hyderabad.</p>
+        <p className="hero-supporting-line" style={{ marginTop: "1rem", color: "#555" }}>
+          Explore our signature project — RPL County, Kothur, offering premium plots starting at ₹26,000/Sq.Yd.
+        </p>
 
         <div className="hero-image" onClick={() => alert('Video player would open here')} style={{ cursor: 'pointer' }}>
           <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=900&h=400&fit=crop" alt="Luxury Interior" />

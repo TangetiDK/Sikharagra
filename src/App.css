@@ -194,6 +194,13 @@
       margin-right: auto;
   }
 
+  .hero-supporting-line{
+     margin-bottom: 2rem;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
   .hero-image {
       position: relative;
       width: min(90%, 880px);
