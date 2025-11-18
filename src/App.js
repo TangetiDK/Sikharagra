@@ -38,7 +38,7 @@ function App() {
       <WhyChooseUs />
       <AboutSection />
       <Portfolio />
-      <Properties />
+      {/* <Properties /> */}
       <Projects activeFilter={activeProjectFilter} onFilterChange={setActiveProjectFilter} />
       <Testimonials />
       {/* <Blog /> */}
