@@ -17,7 +17,7 @@ import Footer from './components/Footer';
 import './App.css';
 
 function App() {
-  const [activeProjectFilter, setActiveProjectFilter] = useState('Previous');
+  const [activeProjectFilter, setActiveProjectFilter] = useState('Ongoing');
   const [headerShadow, setHeaderShadow] = useState(false);
 
   useEffect(() => {

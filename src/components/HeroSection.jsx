@@ -9,7 +9,7 @@ function HeroSection() {
         <p className="hero-tagline"> REAL ESTATE | HMDA & RERA APPROVED PROJECTS</p>
         <h1>Building Dreams, Creating Legacies</h1>
         <p className="hero-subtitle">Premium residential and commercial developments by Sikharagra Group redefining modern living across Hyderabad.</p>
-        <p className="hero-supporting-line" style={{ marginTop: "1rem", color: "#555" }}>
+        <p className="hero-subtitle" style={{  color: "#555" }}>
           Explore our signature project — RPL County, Kothur, offering premium plots starting at ₹26,000/Sq.Yd.
         </p>
 

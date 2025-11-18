@@ -47,12 +47,15 @@ function Projects({ activeFilter, onFilterChange }) {
             <button
               key={filter}
               className={`filter-btn ${activeFilter === filter ? 'active' : ''}`}
-              onClick={() => onFilterChange(filter)}
+              onClick={filter === 'Ongoing' ? () => onFilterChange(filter) : undefined}
+              disabled={filter !== 'Ongoing'}
+              style={filter !== 'Ongoing' ? { cursor: 'not-allowed' } : {}}
             >
               {filter}
             </button>
           ))}
         </div>
+
 
         <div className="projects-grid">
           {filteredProjects.length > 0 ? (
